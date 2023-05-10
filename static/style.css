@@ -1,0 +1,457 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #D1FEF5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #36454f;
+  color: white;
+  padding: 30px;
+}
+
+#content {
+  color: white;
+  padding-left: 40px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #36454f;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.Kota {
+  font-size: 30px;
+}
+
+.nav-button {
+  margin-left: 20px;
+}
+
+.nav-button:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.berita {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+#content > h1 {
+  text-decoration: underline;
+}
+
+.berita > .gambar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.berita p {
+  text-align: justify;
+}
+
+.gambar > img {
+  width: 100%;
+}
+
+.gambar + div {
+  width: 60%;
+}
+
+.litte-about-me {
+  color:#117187;
+  font-style: italic;
+  font-size: 25px; display: flex; justify-content: center;
+}
+/* CARD */
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+.card-wrapper {
+  width: 550px;
+  height: 300px;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  font-size: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 2px 95px 8px #252525;
+}
+
+.card-front {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: linear-gradient(
+      100deg,
+      #24e5de 40%,
+      #36454f 0
+  );
+}
+
+.left img {
+  width: 82%;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.right {
+  width: 80%;
+  color: #fff;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.person {
+  background-color: #1187ac;
+  padding-left: 35px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.right-content i {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #11871c;
+  margin-right: 20px;
+}
+
+.person h4 {
+  text-transform: uppercase;
+}
+
+.phone {
+  padding-left: 30px;
+}
+
+.email {
+  padding-left: 20px;
+}
+
+.address {
+  padding-left: 10px;
+}
+
+
+@media screen and (max-width: 800px) { 
+  body {
+      font-size: 67%;
+  }  
+  
+  .Kota {
+      font-size: 15px;
+  }
+
+
+  .berita {
+      flex-direction: column;
+  }
+
+  .berita > .gambar {
+      width: 70%;
+  }
+
+  nav{
+      padding: 17px;
+  }
+
+  #content {
+      padding-left: 14px;
+  }
+
+  footer {
+      padding: 10px;
+      width: 100%;
+      /* position: absolute;
+      bottom: 0; */
+  }
+  .gambar + div {
+      width: 80%;
+  }
+
+  .card-wrapper {
+      width: 367px;
+      height: 200px;
+  }
+  
+  .left img {
+      width: 74%;
+      margin-top: 30px;
+      margin-left: 20px;
+  }
+  
+  .right {
+      width: 110%;
+      color: #fff;
+  }
+  
+  .right-content {
+      margin-top: 6px;
+  }
+  
+  .person {
+      padding-left: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .right-content i {
+      width: 20px;
+      height: 20px;
+      border: 1.3px solid #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #11871c;
+      margin-right: 20px;
+  }
+  
+  .phone {
+      padding-left: 15px;
+  }
+  
+  .email {
+      padding-left: 10px;
+  }
+  
+  .address {
+      padding-left: 5px;
+  }
+  .rmo {
+      font-size: 15px;
+  }
+}
+
+
+/* --------------- TENTANG ----------------- */
+.tentang {
+  height: 120px;
+  background-color: #56599c;
+  padding: 24px 36px 24px 36px;
+}
+
+.tentangPengajar {
+  height: 120px;
+  padding: 36px;
+}
+
+#tf-about {
+  padding: 30px 0;
+}
+
+.deskripsi {
+  font-size: 20px;
+}
+
+.fa-cost-colour {
+  color: white;
+}
+
+.relative-left {
+  position: relative;
+  left: 60px;
+}
+
+.relative-right {
+  position: relative;
+  right: 60px;
+}
+
+.founder {
+  background-color: #117187;
+  height: 400px;
+}
+
+.mx-width-250 {
+  width: 250px;
+}
+
+.imgCarousel {
+  padding-left: 130px;
+  height:  370px;
+  /* width: 100%; */
+}
+
+.imgTentang {
+  height: 300px;
+  /* width: 100%; */
+}
+
+.container-cust {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+}
+
+ul.footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#footer i.fa {
+  height: 30px;
+  width: 30px;
+  border: 2px solid #fff;
+  font-size: 20px;
+  padding: 4px 5px;
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.5s;
+}
+#footer i.fa:hover {
+  background: #2c71fa;
+  border-color: #2c71fa;
+  color: #ffffff;
+}
+
+.container-social {
+  display: grid;
+  align-items: left;
+  grid-template-columns: 15px 20px 15px;
+  /* column-gap: 10px; */
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+
+
+
+    /* STYLE FOR CAROUSEL */
+    * {
+      box-sizing: border-box;
+  }
+  .mySlides {
+      display: none;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+  }
+
+  /* Caption text */
+  .captionText {
+      color: #000000;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numberText {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      /* background-color: rgb(255, 190, 130, 0.744); */
+      background-color: rgb(236, 234, 237);
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+  }
+
+  .activeDot {
+      /* background-color: rgb(255, 94, 0); oren tua*/
+      background-color: #2e3063; /*oren muda*/
+      /* background-color: rgb(54, 166, 171); ijo */
+  }
+
+  /* Fade in n out */
+  .elementToFadeInAndOut {
+      animation: fadeinout 6.5s linear forwards;
+      opacity: 0;
+  }
+
+  @keyframes fadeinout {
+      0% {
+          opacity: 0;
+      }
+      20% {
+          opacity: 1;
+      }
+      80% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 0;
+      }
+  }
+
+  /* Fading animation */
+  .fade {
+      animation-name: fade;
+      animation-duration: 3.5s;
+  }
+
+  @keyframes fade {
+      from {
+          opacity: 0.4;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+      .captionText {
+          font-size: 11px;
+      }
+  }
+
+  .carousel-height {
+    max-height: 30px;
+  }
+
+  /* END OF STYLE FOR CAROUSEL */
